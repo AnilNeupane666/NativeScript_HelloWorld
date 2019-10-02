@@ -18,4 +18,7 @@ navigate('contact-us');
 }
 exports.onReposTap = function(){
     navigate('repos');
-    }
+}
+exports.onProfileTap = function(){
+        navigate('profile');
+}
