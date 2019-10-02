@@ -1,0 +1,54 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
+    <StackLayout>
+    <Label text="My Repos" textWrap="true" class ="title" />
+    <GridLayout rows="*, *, *" columns="*, *"  class ="content">
+     
+     <StackLayout row = "0"  col="0">
+        <Label text="C # programming" textWrap="true" />
+        <Image src="https://via.placeholder.com/150x75?text=GitHub_Repo" stretch="aspectFit" />
+        <Label text="33 commits" textWrap="true" />
+        <Label text="Last Updted at 22/09/2019" textWrap="true" />
+         
+     </StackLayout>
+
+     <StackLayout row = "0"  col="1">
+        <Label text="Kek programming" textWrap="true" />
+        <Image src="https://via.placeholder.com/150x75?text=GitHub_Repo" stretch="aspectFit" />
+        <Label text="33 commits" textWrap="true" />
+        <Label text="Last Updted at 22/09/2019" textWrap="true" />
+     </StackLayout>
+        
+     <StackLayout row = "1"  col="0">
+        <Label text="Hello world" textWrap="true"  />
+        <Image src="https://via.placeholder.com/150x75?text=GitHub_Repo" stretch="aspectFit" />
+        <Label text="33 commits" textWrap="true" />
+        <Label text="Last Updted at 22/09/2016" textWrap="true" />
+     </StackLayout>
+        
+     <StackLayout row = "1"  col="1">
+        <Label text="Keylogger" textWrap="true"  />
+        <Image src="https://via.placeholder.com/150x75?text=GitHub_Repo" stretch="aspectFit" />
+        <Label text="33 commits" textWrap="true" />
+        <Label text="Last Updted at 2/09/2019" textWrap="true" />
+     </StackLayout>
+        
+     <StackLayout row = "2"  col="0">
+        <Label text="Windows 2" textWrap="true"  />
+        <Image src="https://via.placeholder.com/150x75?text=GitHub_Repo" stretch="aspectFit" />
+        <Label text="33 commits" textWrap="true" />
+        <Label text="Last Updted at 22/09/2019" textWrap="true" />
+     </StackLayout>
+        
+     <StackLayout row = "2"  col="1">
+        <Label text="DNS blaster" textWrap="true"  />
+        <Image src="https://via.placeholder.com/150x75?text=GitHub_Repo" stretch="aspectFit" />
+        <Label text="33 commits" textWrap="true" />
+        <Label text="Last Updted at 22/09/2019" textWrap="true" />
+     </StackLayout>
+
+    </GridLayout>
+    
+    </StackLayout>
+
+
+</Page>

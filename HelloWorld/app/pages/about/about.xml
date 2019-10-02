@@ -1,0 +1,9 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
+    <StackLayout>
+            <Label text="About" textWrap="true" class ="title" />
+         <StackLayout class ="content">
+            <Label text="This app was created by VIVES students for the course Mobile Apps" textWrap="true" />
+            <Label text="Thanks us later" textWrap="true" />  
+         </StackLayout>    
+    </StackLayout>
+</Page>

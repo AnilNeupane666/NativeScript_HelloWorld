@@ -1,0 +1,10 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
+    <StackLayout> 
+        <Label text="IS THIS MY FIRST APP?" class = "title" textWrap="true" /> 
+        <Button text="About" tap="onAboutTap" />
+        <Button text="Contact us" tap="onContactUsTap" />
+        <Button text="Repos" tap="onReposTap" />
+        
+              
+    </StackLayout>
+</Page>

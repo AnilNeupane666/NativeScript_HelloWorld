@@ -1,0 +1,89 @@
+﻿/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme. 
+The imported CSS rules must precede all other types of rules.
+*/
+@import '~nativescript-theme-core/css/core.light.css';
+
+/*
+The following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.btn {
+    font-size: 18;
+}
+
+
+
+Page {
+
+background-color: #897C80;
+padding-left:12;
+padding-right:12;
+
+}
+
+Button {
+    /*STyle selector*/
+
+    background-color: #434A42;
+    color: #F2F7F2;
+    border-radius: 15;
+    margin: 10;
+}
+
+
+.title{
+    /*class selector*/
+    background-color: #2C1A1D;
+    color: #BEB7A4;
+    font-size: 16;
+    font-weight: bold;
+    padding: 15;
+    text-align: center;
+    margin-bottom:12;
+
+}
+
+content {
+    padding:12;
+}
+
+#submit {
+    /*ID selector*/
+}
+
+StackLayout Label{
+    /*Hierarchical selectors*/
+    /*Child*/
+
+}
+
+StackLayout > Label{
+    /*Hierarchical selectors*/
+    /*Direct Child*/
+
+}
+
+TextField[]{
+    /*Attribute selector*/
+
+
+}
+
+
+
+/* *{
+  border-width: 2px;
+  border-color: red;
+  border-style: solid;
+  margin: 4px;
+  padding: 4px;
+} */
