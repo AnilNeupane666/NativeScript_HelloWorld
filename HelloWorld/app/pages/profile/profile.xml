@@ -13,8 +13,7 @@
      </StackLayout>
         
      <StackLayout row = "1"  col="0">
-        <Label text="Nickname" textWrap="true" />
-        
+        <Label text="Nickname" textWrap="true" /> 
      </StackLayout>
         
      <StackLayout row = "1"  col="1">
@@ -29,9 +28,9 @@
         <Label text="15" textWrap="true" />
      </StackLayout>
 
-        <StackLayout row = "3"  col="0">
+      <StackLayout row = "3"  col="0">
         <Label text="#followers" textWrap="true" />
-     </StackLayout>
+      </StackLayout>
 
      <StackLayout row = "3"  col="1">
         <Label text="1" textWrap="true" />
@@ -39,6 +38,7 @@
 
      <StackLayout row = "4"  col="0" colSpan="2">
         <Image src="https://bit.ly/2ox9d9a" stretch="aspectFit" />
+        
      </StackLayout>
      
     </GridLayout>
