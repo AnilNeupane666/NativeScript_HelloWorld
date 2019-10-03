@@ -30,6 +30,7 @@ padding-right:12;
 
 }
 
+
 Button {
     /*STyle selector*/
 
@@ -46,14 +47,19 @@ Button {
     color: #BEB7A4;
     font-size: 16;
     font-weight: bold;
-    padding: 15;
+    padding: 10;
     text-align: center;
     margin-bottom:12;
 
 }
 
-content {
-    padding:12;
+.content {
+    padding:5;
+}
+
+.placeholder {
+
+    background-color: white;
 }
 
 #submit {
@@ -78,12 +84,10 @@ TextField[]{
 
 }
 
-
-
-/* *{
-  border-width: 2px;
-  border-color: red;
-  border-style: solid;
-  margin: 4px;
-  padding: 4px;
-} */
+.profile {
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    margin: 4px;
+    padding: 4px;
+}

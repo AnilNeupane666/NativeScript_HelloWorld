@@ -1,15 +1,22 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
     <StackLayout>
-    <Label text="Contact Us" textWrap="true" class ="title" />
-     <Label text="Contact Us" textWrap="true" />
+     <Label text="Contact Us" textWrap="true" class ="title" />
+     <Label text="Contact Us" textWrap="true"   class ="content" />
      <Label text="To contact us fill in the following form " textWrap="true" class ="content"/>
      
      <Label text="Subject" textWrap="true" class ="content" />
-     <TextField hint="Please enter a subject..." text="{{  }}" class ="content" />
+     <TextField hint="Please enter a subject..." text="{{ subject }}" class ="content" class="placeholder" />
 
      <Label text="Message:" textWrap="true"  class ="content"/>
-     <TextView hint="Please provide a message..." text="{{  }}" editable="true"  class ="content"/>
+     <TextView hint="Please provide a message..." text="{{ message  }}" editable="true"  class ="content" class="placeholder"/>
 
      <Button text="Submit" tap="onSubmit" />
+
+
+     <Label text="Preview message : " textWrap="true" />
+     <Label text="{{ subject,'Subject: ' + subject}} " textWrap="true" />
+     <Label text="{{message }} " textWrap="true" />
+     
+
     </StackLayout>
 </Page>

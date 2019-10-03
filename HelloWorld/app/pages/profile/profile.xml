@@ -1,15 +1,15 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
-    <StackLayout>
-    <Label text="My Profile" textWrap="true" class ="title" />
+    <StackLayout class ="title">
+    <Label text="My Profile" textWrap="true" />
     
-     <GridLayout rows="*, *, *,*,*" columns="*, *"  class ="content">
+     <GridLayout rows="*, *, *,*,*,*" columns="*, *"  class ="content" class = "profile">
      
      <StackLayout row = "0"  col="0">      
-        <Label text="Name" textWrap="true" />
+        <Label text="Name:" textWrap="true" />
      </StackLayout>
 
      <StackLayout row = "0"  col="1">
-        <Label text="Anil Neupane" textWrap="true" />
+        <Label text="{{ name }}" textWrap="true" />
      </StackLayout>
         
      <StackLayout row = "1"  col="0">
@@ -17,7 +17,7 @@
      </StackLayout>
         
      <StackLayout row = "1"  col="1">
-        <Label text="AnilNeupane666" textWrap="true" />
+        <Label text=" {{nickname}} " textWrap="true" />
      </StackLayout>
         
      <StackLayout row = "2"  col="0">
@@ -25,7 +25,7 @@
      </StackLayout>
         
      <StackLayout row = "2"  col="1">
-        <Label text="15" textWrap="true" />
+        <Label text="{{repos}}" textWrap="true" />
      </StackLayout>
 
       <StackLayout row = "3"  col="0">
@@ -33,14 +33,16 @@
       </StackLayout>
 
      <StackLayout row = "3"  col="1">
-        <Label text="1" textWrap="true" />
+        <Label text="{{followers}}" textWrap="true" />
      </StackLayout>
 
      <StackLayout row = "4"  col="0" colSpan="2">
         <Image src="https://bit.ly/2ox9d9a" stretch="aspectFit" />
-        
      </StackLayout>
      
+     <StackLayout row = "5"  col="0" colSpan="2">
+        <Button text="Visit Github page " tap="onVisitGithub" />
+     </StackLayout>
     </GridLayout>
 </StackLayout>
 

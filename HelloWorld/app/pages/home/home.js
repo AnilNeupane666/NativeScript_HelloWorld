@@ -22,3 +22,6 @@ exports.onReposTap = function(){
 exports.onProfileTap = function(){
         navigate('profile');
 }
+exports.onImageTap = function(){
+    navigate('images');
+}

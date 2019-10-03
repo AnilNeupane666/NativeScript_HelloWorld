@@ -5,6 +5,6 @@
         <Button text="Contact us" tap="onContactUsTap" />
         <Button text="Repos" tap="onReposTap" />
         <Button text="Profiles" tap="onProfileTap" />
-              
+        <Button text="Images" tap="onImageTap" />
     </StackLayout>
 </Page>
