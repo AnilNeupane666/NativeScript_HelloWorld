@@ -7,8 +7,6 @@ let navigate  = function(page){
 }
 
 
-
-
 exports.onAboutTap = function(){
    navigate('about');
 }

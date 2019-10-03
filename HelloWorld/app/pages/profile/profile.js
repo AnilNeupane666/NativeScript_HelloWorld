@@ -14,7 +14,9 @@ exports.onLoaded = function(args){
     let page = args.object;
     page.bindingContext = user;
 
-
+    exports.onVisitGithub = function() {
+        dialogModule.alert('Submitted message successfully');
+    }
     
 
 // Make a request for a user with a given ID

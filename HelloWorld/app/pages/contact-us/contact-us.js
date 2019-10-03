@@ -19,7 +19,3 @@ exports.onLoaded = function(args){
     let page = args.object;
     page.bindingContext = message;
 }
-
-exports.onVisitGithub = function() {
-    dialogModule.alert('Submitted message successfully');
-}
